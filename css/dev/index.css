@@ -640,12 +640,12 @@ body {
   .hero__right-bg {
     top: 15%;
     right: -1.25rem;
-    width: 8.75rem;
+    max-width: 8.75rem;
     transform: rotate(-45deg);
   }
   .hero__left-bg {
     top: 65%;
-    width: 8.75rem;
+    max-width: 8.75rem;
   }
   .hero__wrap {
     row-gap: 1.5625rem;
@@ -740,10 +740,10 @@ body {
     gap: 2.5rem;
   }
   .hero__right-bg {
-    width: 21.875rem;
+    max-width: 21.875rem;
   }
   .hero__left-bg {
-    width: 18.75rem;
+    max-width: 18.75rem;
   }}
 @media (any-hover: hover) {
   .menu__link:hover {

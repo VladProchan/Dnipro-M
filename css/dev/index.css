@@ -173,7 +173,6 @@ body {
   background-color: #fff;
   transition: width 0.3s, color 0.3s;
 }
-
 .menu__link--active {
   color: #FF2F00;
 }

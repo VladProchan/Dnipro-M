@@ -173,13 +173,6 @@ body {
   background-color: #fff;
   transition: width 0.3s, color 0.3s;
 }
-.menu__link--active {
-  color: #FF2F00;
-}
-.menu__link--active::before {
-  width: 100%;
-  background-color: #FF2F00;
-}
 
 .icon-menu {
   display: none;
@@ -745,6 +738,17 @@ body {
   .hero__left-bg {
     max-width: 18.75rem;
   }}
+@media (min-width: 47.99875em) {
+  .menu__link--active {
+    color: #FF2F00;
+  }
+  .menu__link--active::before {
+    width: 100%;
+    background-color: #FF2F00;
+  }
+  .header__container {
+    justify-content: space-between;
+  }}
 @media (any-hover: hover) {
   .menu__link:hover {
     color: #FF2F00;
@@ -796,8 +800,4 @@ body {
 @media (max-width: 47.99875em) and (any-hover: none) {
   .icon-menu {
     cursor: default;
-  }}
-@media (min-width: 47.99875em) {
-  .header__container {
-    justify-content: space-between;
   }}

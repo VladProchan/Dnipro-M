@@ -570,6 +570,7 @@ body {
   }
   .menu__link {
     color: #000;
+    text-transform: uppercase;
   }
   .icon-menu {
     display: block;
@@ -632,14 +633,6 @@ body {
   .page__social {
     padding-block-end: 1.5625rem;
   }
-  .hero__right-bg {
-    top: 5%;
-    right: -7.5rem;
-    transform: rotate(-65deg);
-  }
-  .hero__left-bg {
-    top: 65%;
-  }
   .hero__wrap {
     row-gap: 1.5625rem;
   }
@@ -647,7 +640,7 @@ body {
     max-width: 15.9375rem;
   }
   .hero__text {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
   }
   .hero__button {
     font-size: 1rem;
@@ -734,9 +727,13 @@ body {
   }
   .hero__right-bg {
     max-width: 21.875rem;
+    top: 5%;
+    right: -7.5rem;
+    transform: rotate(-65deg);
   }
   .hero__left-bg {
     max-width: 18.75rem;
+    top: 62%;
   }}
 @media (min-width: 47.99875em) {
   .menu__link--active {

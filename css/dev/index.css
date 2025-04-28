@@ -246,7 +246,7 @@ body {
 .hero__right-bg {
   position: absolute;
   pointer-events: none;
-  top: 12.5rem;
+  top: 10%;
   right: -4.375rem;
   max-width: 31.25rem;
 }
